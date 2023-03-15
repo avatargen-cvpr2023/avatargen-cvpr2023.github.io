@@ -387,6 +387,7 @@
             Novel Pose Generation
         </div>
         <div class="details links-table">
+        Drag the blue separator to see the pixel-aligned RGB and geometry. Refresh the page if RGB and geometry are out of sync.
             <table>
                 <tbody><tr>
                     <td>
@@ -630,7 +631,7 @@
             <iframe width="500" height="500" src="application/music/music_to_dance.mp4" title="Music-driven Animation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </div>
         <p class="caption" style="margin-bottom: 1px; text-align: center">
-            Given an audio sequence, we use the open-source audio-to-motion method <a href="https://github.com/lisiyao21/Bailando">Bailando</a> to generate SMPL sequence, and then apply it to animate the generated avatars
+            Given an audio sequence, we use the open-source audio-to-motion method <a href="https://github.com/lisiyao21/Bailando">Bailando</a> to generate the corresponding SMPL sequence, and then apply it to animate the generated avatars
             (Click to play, video with audio).
         </p>
     </section>
@@ -641,7 +642,6 @@
         </div>
         <div style="width: 95%; text-align: center; margin:auto;">
             <img style="width:100%" src="./assets/triplanefinal.png">
-            <em>Figure 1. AvatarGen Framework.</em>
         </div>
         <!-- <p>Pipeline of AvatarGen. It consists of three parts. a) Canonical human generation: Given a  latent code $\mathbf{z}$ sampled from Gaussian distribution and camera pose ${\mathbf{c}}$, the model first uses a StyleGAN-like backbone to generate  tri-plane features of an identity with a canonical pose and shape $\bar{\mathbf{p}}$. 
             b) SMPL guided mapping: The canonical mapping module,  guided by the SMPL     $\mathbf{p}=(\mathbf{\theta}, \mathbf{\beta})$, un-warps the spatial points $\mathbf{x}$ sampled from the observation space $\mathcal{O(\mathbf{p})}$ to the canonical space $\mathcal{C(\bar{\mathbf{p}})}$.
@@ -659,7 +659,7 @@
             Bibtex
         </div>
         <div class="details">       
-            <pre>@article{AvatarGen,
+            <pre>@article{AvatarGen2023,
     title={AvatarGen: A 3D Generative Model for Animatable Human Avatars},
     author={Anonymous},
     journal={ICCV},
