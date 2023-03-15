@@ -1,1 +1,1 @@
-# avatargen-cvpr2023.github.io
+# avatargen-iccv2023.github.io
